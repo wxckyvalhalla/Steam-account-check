@@ -46,7 +46,7 @@ def check_steam_accounts():
             
             return player_info
 
-        api_key = 'YOUR STEAM API CODE HERE '
+        api_key = 'YOUR STEAM API CODE HERE'
 
         player_info = get_player_summary(steam_id64, api_key)
         print("Аватар:", player_info['avatar'])
